@@ -37,6 +37,17 @@ header .logo{
   font-size:40px;
 }
 
+header .profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+header .profile img {
+  width: 40px;
+}
+
 header nav a{
   text-decoration:none;
   color:#AAA;
@@ -47,7 +58,7 @@ header nav a:hover{
   color: var(--branco);
 }
 
-.relevant-media{
+.featured{
   font-size:16px;
   background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/capa-house.jpg');
   height:400px;
@@ -58,12 +69,12 @@ header nav a:hover{
   align-items: flex-start;
 }
 
-.relevant-media .description{
+.featured .description{
   margin-top: 10px;
   margin-bottom: 40px;
 }
 
-.relevant-media .title{
+.featured .title{
   margin-top: 15%;
   font-size: 40px;
   font-family: 'Trebuchet MS', Arial, sans-serif;
@@ -95,7 +106,7 @@ button i{
   margin-left: 20px;
 }
 
-.relevant-media .container{
+.container .featured {
   width: 70%;
 }
 
