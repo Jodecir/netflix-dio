@@ -12,3 +12,8 @@
   cursor: pointer;
   transition: .3s ease all;
 }
+
+.js-video-button:hover{
+  background-color: #ffffff;
+  color: #141414;
+}
