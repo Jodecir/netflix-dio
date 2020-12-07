@@ -61,7 +61,7 @@ header nav a:hover{
 .featured{
   font-size:16px;
   background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/capa-house.jpg');
-  height:400px;
+  height:500px;
   background-size:cover;
   display: flex;
   flex-direction: column;
@@ -84,7 +84,7 @@ button i{
   margin-right: 8px;
 }
 
-.botao{
+.btn{
   background-color: rgba(0,0,0,.50);
   border:none;
   color: var(--branco);
@@ -97,7 +97,7 @@ button i{
   transition: .3s ease all;
 }
 
-.botao:hover{
+.btn:hover{
   background-color: var(--branco);
   color: var(--preto);
 }
@@ -110,6 +110,12 @@ button i{
   width: 70%;
 }
 
+/* carousel */
+
+.carousel-medias{
+  margin-top: 5px;
+}
+
 .box-media{
   height: 100%;
   width: 100%;
@@ -120,10 +126,6 @@ button i{
 .box-media:hover {
   transform: scale(1.10);
   transition: .3s ease all;
-}
-
-.carrosel-medias{
-  margin-top: 5px;
 }
 
 /* width */
