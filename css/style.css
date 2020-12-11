@@ -121,11 +121,13 @@ button i{
   width: 100%;
   display: block;
   cursor: pointer;
+  opacity: 0.8;
 }
 
 .item:hover {
-  transform: scale(1.10);
-  transition: .3s ease all;
+  transition: .2s ease all;
+  border: solid 4px var(--branco);
+  opacity: 1;
 }
 
 /* width */
