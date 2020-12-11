@@ -1,6 +1,6 @@
 # Descrição do Exercício
 
-#### Repositório da aula de JS e jQuery ensinada na plataforma da Digital Innovation One, cujo desafio era clonar a interface do Netflix, foi criada para o Bootcamp da DIO.
+Repositório da aula de JS e jQuery ensinada na plataforma da Digital Innovation One, cujo desafio era clonar a interface do Netflix, foi criada para o Bootcamp da DIO.
 
 ## Bootcamp
 
@@ -25,12 +25,12 @@
 
 ### Recursos CSS:
 
-* [:hover](https://www.w3schools.com/cssref/sel_hover.asp)
+* [@media](https://developer.mozilla.org/pt-BR/docs/Web/CSS/@media)
 * [:root](https://www.w3schools.com/cssref/sel_root.asp)
-* [::-webkit](https://developer.mozilla.org/en-US/docs/Web/CSS/WebKit_Extensions)
+* [:hover](https://www.w3schools.com/cssref/sel_hover.asp)
 * [transition](https://www.w3schools.com/css/css3_transitions.asp)
 * [transform](https://www.w3schools.com/cssref/css3_pr_transform.asp)
-* [@media](https://developer.mozilla.org/pt-BR/docs/Web/CSS/@media)
+* [::-webkit](https://developer.mozilla.org/en-US/docs/Web/CSS/WebKit_Extensions)
 
 #### Contatos:
 
