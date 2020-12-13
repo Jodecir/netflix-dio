@@ -1,3 +1,8 @@
+@font-face {
+	font-family:Titulo;
+	src:url(../fonts/BebasNeue-Regular.TTF);
+}
+
 :root{
   --vermelho:#E50914;
   --preto:#141414;
@@ -11,8 +16,8 @@
 }
 
 body{
+	font-family:Titulo;
   background: var(--preto);
-  font-family: 'Arial', Times, serif;
   color: var(--branco);
 }
 
