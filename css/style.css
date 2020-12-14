@@ -37,8 +37,8 @@ text {
 }
 
 header .logo {
+	font-family:Titulo;
   color: var(--vermelho);
-  font-family: 'Arial Black', Times;
   font-size:40px;
 }
 
