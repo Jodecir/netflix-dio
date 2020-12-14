@@ -3,25 +3,25 @@
 	src:url(../fonts/BebasNeue-Regular.TTF);
 }
 
-:root{
+:root {
   --vermelho:#E50914;
   --preto:#141414;
   --branco: #ffffff;
 }
 
-*{
+* {
   margin:0;
   padding:0;
   box-sizing: border-box;
 }
 
-body{
+body {
 	font-family:Titulo;
   background: var(--preto);
   color: var(--branco);
 }
 
-header .container{
+header .container {
   display:flex;
   flex-direction: row;
   align-items: center;
@@ -36,7 +36,7 @@ text {
   fill: #FF9800;
 }
 
-header .logo{
+header .logo {
   color: var(--vermelho);
   font-family: 'Arial Black', Times;
   font-size:40px;
@@ -53,17 +53,17 @@ header .profile img {
   width: 40px;
 }
 
-header nav a{
+header nav a {
   text-decoration:none;
   color:#AAA;
   margin-right: 10px;
 }
 
-header nav a:hover{
+header nav a:hover {
   color: var(--branco);
 }
 
-.featured{
+.featured {
   font-size:16px;
   background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/capa-house.jpg');
   height:500px;
@@ -74,18 +74,18 @@ header nav a:hover{
   align-items: flex-start;
 }
 
-.featured .description{
+.featured .description {
   margin-top: 10px;
   margin-bottom: 40px;
 }
 
-.featured .title{
+.featured .title {
   margin-top: 15%;
   font-size: 40px;
   font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 
-button i{
+button i {
   margin-right: 8px;
 }
 
@@ -102,12 +102,12 @@ button i{
   transition: .3s ease all;
 }
 
-.btn:hover{
+.btn:hover {
   background-color: var(--branco);
   color: var(--preto);
 }
 
-.container{
+.container {
   margin-left: 20px;
 }
 
@@ -117,11 +117,11 @@ button i{
 
 /* carousel */
 
-.carousel-medias{
+.carousel-medias {
   margin-top: 5px;
 }
 
-.item{
+.item {
   height: 100%;
   width: 100%;
   display: block;
