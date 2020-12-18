@@ -30,6 +30,7 @@ Repositório da aula de JS e jQuery ensinada na plataforma da Digital Innovation
 * [:hover](https://www.w3schools.com/cssref/sel_hover.asp)
 * [transition](https://www.w3schools.com/css/css3_transitions.asp)
 * [transform](https://www.w3schools.com/cssref/css3_pr_transform.asp)
+* [opacity](https://www.w3schools.com/css/css_image_transparency.asp)
 * [::-webkit](https://developer.mozilla.org/en-US/docs/Web/CSS/WebKit_Extensions)
 
 #### Contatos:
