@@ -1,6 +1,6 @@
 # Descrição do Exercício
 
-Repositório da aula de JS e jQuery ensinada na plataforma da Digital Innovation One, cujo desafio era clonar a interface do Netflix, foi criada para o Bootcamp da DIO.
+Repositório da aula de JS e jQuery ensinada na plataforma Digital Innovation One, cujo desafio era clonar a interface do Netflix.
 
 ## Bootcamp
 
