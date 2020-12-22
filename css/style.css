@@ -145,7 +145,7 @@ button i {
   font-size: 28px;
 }
 
-.item {
+.item-img {
   height: 100%;
   width: 100%;
   display: block;
@@ -153,7 +153,7 @@ button i {
   opacity: 1;
 }
 
-.item:hover {
+.item-img:hover {
   transition: .2s ease all;
   border: solid 4px var(--branco);
   opacity: 0.5;
