@@ -66,7 +66,7 @@ header nav a:hover {
 .featured {
   font-size:16px;
   background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/capa-house.jpg');
-  height:500px;
+  height:450px;
   background-size:cover;
   display: flex;
   flex-direction: column;
@@ -85,7 +85,7 @@ header nav a:hover {
 }
 
 button i {
-  margin-right: 8px;
+  margin-right: 14px;
 }
 
 .btn{
@@ -112,6 +112,13 @@ button i {
 
 .container .featured {
   width: 70%;
+}
+
+.carousel-title {
+  font-size: 30px;
+  letter-spacing: 3px;
+  margin-left: 15px;
+  margin-bottom: 10px;
 }
 
 /* carousel */

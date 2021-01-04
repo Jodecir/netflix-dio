@@ -37,3 +37,8 @@ Repositório da aula de JS e jQuery ensinada na plataforma Digital Innovation On
 
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://https://www.linkedin.com/in/jodecir/)](https://www.linkedin.com/in/jodecir/) 
 [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:jodecirneto@gmail.com)](mailto:jodecirneto@gmail.com)
+
+#### Creditos:
+
+Posters de Filme retirados de: https://www.joblo.com/
+Posters de Série retirados de: https://uk.newonnetflix.info/

@@ -13,11 +13,11 @@
     <link rel="stylesheet" href="css/owl/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl/owl.theme.default.min.css"> 
     <link rel="stylesheet" href="css/modal-video.min.css"> 
+    <script src="js/jquery.min.js" defer></script>
     <script src="js/modal.js" defer></script>
-    <script src="js/owl/jquery.min.js" defer></script>
     <script src="js/owl/owl.carousel.min.js" defer></script>
     <script src="js/owl/setup.js" defer></script>
-    <script src="js/jquery-modal-video.min.js" defer></script>
+    <script src="js/jquery-modal-video.js" defer></script>
     <script src="js/modal-video.js" defer></script>
     <script src="https://kit.fontawesome.com/2c36e9b7b1.js" defer></script>
   </head>
@@ -28,8 +28,8 @@
         <nav>
           <a href="#inicio">Inicio</a>
           <a href="#series">Séries</a>
-          <a href="#series">Filmes</a>
-          <a href="#series">Documentários</a>
+          <a href="#filmes">Filmes</a>
+          <a href="#filmes">Documentários</a>
         </nav>
         <nav>
           <div class="profile">
@@ -48,13 +48,13 @@
               <i class="fas fa-play"></i> ASSISTIR AGORA
             </button>
             <button role="button" class="btn" id="button-modal">
-              <i class="fas fa-info-circle"></i> MAIS INFORMAÇÕES
+              <i class="fas fa-plus"></i> INFORMAÇÕES
             </button>
             <div id="modal-wrapper" class="modal">
               <div class="modal-content">
                 <span class="close">&times;</span>
                 <h1>HOUSE OF CARDS</h1>
-                <p>House of Cards é uma série de televisão americana de drama político, criada por Beau Willimon[3] para o serviço de streaming Netflix. Tem como protagonista Kevin Spacey, como Francis Underwood, um político ambicioso que almeja um alto cargo público em Washington, D.C.. House of Cards é uma adaptação do romance homônimo escrito por Michael Dobbs[4] e da minissérie britânica criada por Andrew Davies. A primeira temporada de treze episódios foi disponibilizada na íntegra no dia 1 de fevereiro de 2013. A segunda foi lançada no dia 14 de fevereiro de 2014 com o mesmo número de episódios.[5] No Brasil a série também é transmitida pelo canal Paramount Channel e em Portugal a série é exibida em exclusivo no Canal TVSéries. Foi a primeira série transmitida em resolução 4K pela Netflix, sendo sucedida pelas remasterizações de Breaking Bad e Orange Is the New Black.[6]</p>
+                <p>House of Cards é uma série de televisão americana de drama político, criada por Beau Willimon para o serviço de streaming Netflix. Tem como protagonista Kevin Spacey, como Francis Underwood, um político ambicioso que almeja um alto cargo público em Washington, D.C.. House of Cards é uma adaptação do romance homônimo escrito por Michael Dobbs e da minissérie britânica criada por Andrew Davies. A primeira temporada de treze episódios foi disponibilizada na íntegra no dia 1 de fevereiro de 2013. A segunda foi lançada no dia 14 de fevereiro de 2014 com o mesmo número de episódios. No Brasil a série também é transmitida pelo canal Paramount Channel e em Portugal a série é exibida em exclusivo no Canal TVSéries. Foi a primeira série transmitida em resolução 4K pela Netflix, sendo sucedida pelas remasterizações de Breaking Bad e Orange Is the New Black.</p>
               </div>
             </div>
           </div>
@@ -62,75 +62,102 @@
       </div>
     </main>
     <div class="carousel-medias" id="series">
+      <h3 class="carousel-title">Séries</h3>
       <div class="owl-carousel owl-theme">
         <div class="box-media">
-          <img class="item-img" src="img/mini1.jpg" alt="" srcset="">
+          <img class="item-img" src="img/serie1.jpg" alt="" srcset="">
           <div class="item-detail">
             <h2>Nome da Série</h2>
             <p>Temporada:Episódio</p>
           </div>
         </div>
         <div class="box-media">
-          <img class="item-img" src="img/mini2.jpg" alt="" srcset="">
+          <img class="item-img" src="img/serie2.jpg" alt="" srcset="">
           <div class="item-detail">
             <h2>Nome da Série</h2>
             <p>Temporada:Episódio</p>
           </div>
         </div>
         <div class="box-media">
-          <img class="item-img" src="img/mini3.jpg" alt="" srcset="">
+          <img class="item-img" src="img/serie3.jpg" alt="" srcset="">
           <div class="item-detail">
             <h2>Nome da Série</h2>
             <p>Temporada:Episódio</p>
           </div>
         </div>
         <div class="box-media">
-          <img class="item-img" src="img/mini4.jpg" alt="" srcset="">
+          <img class="item-img" src="img/serie4.jpg" alt="" srcset="">
           <div class="item-detail">
             <h2>Nome da Série</h2>
             <p>Temporada:Episódio</p>
           </div>
         </div>
         <div class="box-media">
-          <img class="item-img" src="img/mini5.jpg" alt="" srcset="">
+          <img class="item-img" src="img/serie5.jpg" alt="" srcset="">
           <div class="item-detail">
             <h2>Nome da Série</h2>
             <p>Temporada:Episódio</p>
           </div>
         </div>
         <div class="box-media">
-          <img class="item-img" src="img/mini6.jpg" alt="" srcset="">
+          <img class="item-img" src="img/serie6.jpg" alt="" srcset="">
           <div class="item-detail">
             <h2>Nome da Série</h2>
             <p>Temporada:Episódio</p>
           </div>
         </div>
         <div class="box-media">
-          <img class="item-img" src="img/mini7.jpg" alt="" srcset="">
+          <img class="item-img" src="img/serie7.jpg" alt="" srcset="">
           <div class="item-detail">
             <h2>Nome da Série</h2>
             <p>Temporada:Episódio</p>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="carousel-medias" id="filmes">
+      <h3 class="carousel-title">Filmes</h3>
+      <div class="owl-carousel owl-theme">
         <div class="box-media">
-          <img class="item-img" src="img/mini8.jpg" alt="" srcset="">
+          <img class="item-img" src="img/filme1.jpg" alt="" srcset="">
           <div class="item-detail">
-            <h2>Nome da Série</h2>
-            <p>Temporada:Episódio</p>
+            <h2>Nome do Filme</h2>
           </div>
         </div>
         <div class="box-media">
-          <img class="item-img" src="img/mini9.jpg" alt="" srcset="">
+          <img class="item-img" src="img/filme2.jpg" alt="" srcset="">
           <div class="item-detail">
-            <h2>Nome da Série</h2>
-            <p>Temporada:Episódio</p>
+            <h2>Nome do Filme</h2>
           </div>
         </div>
         <div class="box-media">
-          <img class="item-img" src="img/mini10.jpg" alt="" srcset="">
+          <img class="item-img" src="img/filme3.jpg" alt="" srcset="">
           <div class="item-detail">
-            <h2>Nome da Série</h2>
-            <p>Temporada:Episódio</p>
+            <h2>Nome do Filme</h2>
+          </div>
+        </div>
+        <div class="box-media">
+          <img class="item-img" src="img/filme4.jpg" alt="" srcset="">
+          <div class="item-detail">
+            <h2>Nome do Filme</h2>
+          </div>
+        </div>
+        <div class="box-media">
+          <img class="item-img" src="img/filme5.jpg" alt="" srcset="">
+          <div class="item-detail">
+            <h2>Nome do Filme</h2>
+          </div>
+        </div>
+        <div class="box-media">
+          <img class="item-img" src="img/filme6.jpg" alt="" srcset="">
+          <div class="item-detail">
+            <h2>Nome do Filme</h2>
+          </div>
+        </div>
+        <div class="box-media">
+          <img class="item-img" src="img/filme7.jpg" alt="" srcset="">
+          <div class="item-detail">
+            <h2>Nome do Filme</h2>
           </div>
         </div>
       </div>
