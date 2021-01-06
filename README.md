@@ -8,7 +8,8 @@ Repositório da aula de JS e jQuery ensinada na plataforma Digital Innovation On
 
 ### Feature Adicionada:
 
-* [Modal](https://www.w3schools.com/howto/howto_css_modals.asp)
+* [Modal de informações extras e visualização do filme](https://www.w3schools.com/howto/howto_css_modals.asp)
+* [Hover que detalha nome e temporada do filme selecionado](https://www.w3schools.com/howto/howto_css_modals.asp)
 
 ### Ferramentas Utilizadas:
 
@@ -32,6 +33,7 @@ Repositório da aula de JS e jQuery ensinada na plataforma Digital Innovation On
 * [transform](https://www.w3schools.com/cssref/css3_pr_transform.asp)
 * [opacity](https://www.w3schools.com/css/css_image_transparency.asp)
 * [::-webkit](https://developer.mozilla.org/en-US/docs/Web/CSS/WebKit_Extensions)
+* [::before](https://developer.mozilla.org/pt-BR/docs/Web/CSS/::before)
 
 #### Contatos:
 
