@@ -43,5 +43,4 @@ Repositório da aula de JS e jQuery ensinada na plataforma Digital Innovation On
 
 #### Creditos:
 
-Posters de Filme retirados de: https://www.imdb.com/
-Posters de Série retirados de: https://uk.newonnetflix.info/
+Imagens retiradas de: https://www.themoviedb.org/
