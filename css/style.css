@@ -63,6 +63,12 @@ header nav a:hover {
   color: var(--branco);
 }
 
+header nav .search-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .featured {
   font-size:16px;
   background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/capa-house.jpg');
