@@ -234,6 +234,6 @@ button i {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-   background: var(--branco);
-   height: 1px;
+  background: var(--branco);
+  height: 1px;
 }
