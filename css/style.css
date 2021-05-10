@@ -16,7 +16,7 @@
 }
 
 body {
-	font-family:Titulo;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
   background: var(--preto);
   color: var(--branco);
 }
@@ -69,6 +69,22 @@ header nav .search-menu {
   justify-content: center;
 }
 
+.nav-left {
+  display: flex;
+  float: left;
+  position: relative;
+  justify-content:space-evenly; /*Alinha os elementos - Space Between*/
+  top: 8px;
+  right: 260px;
+}
+
+.nav-right {
+  display: flex;
+  float: right;
+  text-align: right;
+  justify-content: space-between;
+}
+
 .featured {
   font-size:16px;
   background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/capa-house.jpg');
@@ -81,6 +97,7 @@ header nav .search-menu {
 }
 
 .featured .description {
+  font-size: 18px;
   margin-top: 10px;
   margin-bottom: 40px;
 }
@@ -156,7 +173,7 @@ button i {
 .box-media:hover > .item-detail h2 {
   opacity: 1;
   visibility: visible;
-  font-size: 28px;
+  font-size: 24px;
 }
 
 .item-img {
