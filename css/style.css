@@ -7,6 +7,7 @@
   --vermelho:#E50914;
   --preto:#141414;
   --branco: #ffffff;
+  --cinza: #9c9c9c;
 }
 
 * {
@@ -138,17 +139,20 @@ button i {
 }
 
 .carousel-title {
-  font-size: 30px;
+  font-size: 24px;
   letter-spacing: 3px;
   margin-left: 15px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.carousel-title:hover{
+  color: var(--cinza)
 }
 
 /* carousel */
 
 .carousel-medias {
-  margin-left: 5px;
-  margin-top: 5px;
+  margin: 24px;
 }
 
 .box-media {
